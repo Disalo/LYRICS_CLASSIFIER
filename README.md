@@ -6,4 +6,6 @@ A class is defined in to scrape the lyrics for the both artist using BeautifulSo
 
 A MultinomialNB is used to predict likelihood of a lyric to the artist.
 
+Besides, a NMF is used as decomposition matrix algorithms for topic extraction
+
 Website used for scraping: lyrics.com
