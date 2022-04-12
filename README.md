@@ -1,10 +1,10 @@
 # LYRICS CLASSIFIER
 
-This project classifies songs from Billie_Rogue and K_Ray by identifying which lyrics is more liekly to belong to which artist.
+This project classifies songs from two artists by identifying which lyrics are more likely to belong to which artist.
 
-A class is defined in to scrape the lyrics for the both artist using BeautifulSoup.
+A class is defined to scrape the lyrics for both artists using BeautifulSoup.
 
-A MultinomialNB is used to predict likelihood of a lyric to the artist.
+A MultinomialNB is used to predict the likelihood of a lyric to the artist.
 
 Besides, a NMF is used as decomposition matrix algorithms for topic extraction
 
